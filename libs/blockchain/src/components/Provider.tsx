@@ -42,5 +42,3 @@ export const Provider: FC<ProviderProps> = ({
     </WagmiProvider>
   );
 };
-
-export default Provider;
