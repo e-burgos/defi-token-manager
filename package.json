@@ -4,11 +4,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "npx nx run dapp:serve",
-    "build": "nx run dapp:build",
-    "lint": "nx run dapp:lint",
-    "preview": "nx run dapp:preview",
-    "test": "nx run dapp:test",
-    "test-coverage": "nx run dapp:test --coverage"
+    "build": "npx nx run dapp:build",
+    "lint": "npx nx run dapp:lint",
+    "preview": "npx nx run dapp:preview",
+    "test": "npx nx run dapp:test",
+    "test-coverage": "npx nx run dapp:test --coverage"
   },
   "private": true,
   "dependencies": {
