@@ -20,7 +20,7 @@ export const WagmiProviderMocked = ({
 }) => {
   const queryClient = new QueryClient();
   const config = createConfig({
-    chains: [sepolia],
+    chains: [sepolia, mainnet],
     connectors: [
       mock({
         accounts: [
