@@ -31,11 +31,12 @@ export function Nav() {
 
   return (
     <nav className="flex justify-between items-center mb-8 fixed top-0 left-0 right-0 z-10 px-2 sm:px-6 h-20 border-b-2 border-brand bg-white dark:bg-gray-900">
-      <div className="text-2xl font-bold dark:text-white hidden sm:flex">
+      <div className="text-2xl font-bold dark:text-white hidden sm:flex items-center gap-2">
+        <img src="/logo.svg" alt="logo" className="w-10 h-10" />
         {appName}
       </div>
       <div className="text-2xl font-bold dark:text-white flex sm:hidden">
-        {'WC'}
+        <img src="/logo.svg" alt="logo" className="w-10 h-10" />
       </div>
       <div className="flex items-center sm:space-x-2">
         <ConnectButton label="Connect Wallet" provider={provider} />
