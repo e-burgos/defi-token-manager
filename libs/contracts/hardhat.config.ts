@@ -8,7 +8,7 @@ import {
 
 const config: HardhatUserConfig = {
   solidity: '0.8.28',
-  defaultNetwork: 'sepolia',
+  //defaultNetwork: 'sepolia',
   networks: {
     sepolia: {
       url: SEPOLIA_RPC_URL,

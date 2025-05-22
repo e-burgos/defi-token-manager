@@ -8,7 +8,7 @@ describe('DaiToken18', function () {
     const DaiToken18 = await ethers.getContractFactory('DaiToken18');
     const dai = await DaiToken18.deploy();
     expect(await dai.name()).to.equal('DaiToken18');
-    expect(await dai.symbol()).to.equal('DAI');
+    expect(await dai.symbol()).to.equal('TUCUDAI');
   });
 
   it('Should mint tokens to an address', async function () {
